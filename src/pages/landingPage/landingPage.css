@@ -1,0 +1,1208 @@
+.LandingPage{
+    width: 100%;
+
+}
+.TopDiv{
+    background-image: url("../../assets/FullBackground-Image.png");
+    background-size: 100% 100%;
+    background-position: center;
+    margin: 68px 70px 0 !important;
+    padding: 56.78px 55.7px 41.62px 81.4px;
+    position: relative;
+    border: none;
+
+}
+.buildingImage{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-bottom-left-radius: 59px;
+}
+.craftTheFuture{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 57.3px !important;
+    position: relative;
+    z-index: 1;
+}
+.mainSubDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.headingPlusFollow{
+    display: flex;
+    gap: 220px;
+    justify-content: space-between;
+}
+.weCraft{
+    font-family: Poppins;
+    font-size: 49.99px;
+    font-weight: 700;
+    line-height: 53.49px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: -0.04em;
+}
+.futureDeweling{
+    font-family: Poppins;
+    font-size: 49.99px;
+    font-weight: 700;
+    line-height: 53.49px;
+    color: rgba(255, 255, 255, 1);  
+    letter-spacing: -0.04em;
+}
+.FollowUs{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.followPara{
+font-family: Poppins;
+font-size: 17px;
+font-weight: 700;
+line-height: 25.5px;
+color: rgba(255, 255, 255, 1);
+}
+.socialMedia{
+    display: flex;
+    gap: 9px;
+}
+.Insta{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 10px;
+    /* transition: background-color 0.3s; */
+    cursor: pointer;
+}
+.Insta:hover {
+    background-color: rgba(19, 158, 213, 1); 
+}
+.maindiv1Para{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight:400 ;
+    line-height: 16.6px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: -0.03em;
+}
+.cardplusheading{
+    margin-top: 46px !important;
+    display: flex;
+    gap: 153px;
+}
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    padding: 17px 24.5px;
+  background-color: #ffffff99;
+  justify-content: center;
+  border-radius: 18px;
+  margin-top: 51px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  gap: 15px;
+
+  box-shadow: -4px 11px 15px 0px #00000075;
+}
+.TopCardTwoDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 2.92px;
+}
+.SeasideSerenity{
+    color: rgba(50, 50, 50, 1);
+font-family: 'Urbanist';
+font-size: 14.6px;
+font-weight: 600;
+line-height: 21.91px;
+}
+.paraCardDetailTop{
+    font-family: Urbanist;
+    font-size:11.68px ;
+    font-weight:500 ;
+    line-height: 17.52px;
+}
+.threeRooms{
+    display: flex;
+    gap: 14.6px;
+    margin-top: 17.52px !important
+}
+.bed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.92px;
+}
+.bedroomtext{
+    font-family: Urbanist;
+    font-size: 10.22px;
+    font-weight: 500;
+    line-height: 15.33px;
+}
+.propertybutton{
+    margin-top: 17.52px !important;
+    font-family: Urbanist;
+    font-size: 10.22px;
+    font-weight: 500;
+    line-height: 15.33px;
+    text-align: left;
+    color:rgba(255, 255, 255, 1);
+    background-color: #139ed5;
+    border-radius: 5.84px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10.22px 80px 10.22px 81px;
+}
+.Exploringdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+.Intro{
+    font-family: Poppins;
+    font-size: 19.41px;
+    font-weight: 400;
+    line-height: 20.5px;
+    color: rgba(255, 255, 255, 1);
+}
+.vision{
+    padding-top: 24.77px !important;
+    font-family: Poppins;
+    font-size: 39.42px;
+    font-weight: 600;
+    line-height: 44.16px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 24.77px !important;
+}
+.startExploring{
+    padding: 21.11px 38.03px;
+    font-family: Poppins;
+    font-size: 15.38px;
+    font-weight: 700;
+    line-height: 20.5px;
+    text-align: left;
+    background-color: #139ed5;
+    border: none;
+    border-radius: 22.21px;
+    color: #fbfafa;
+    width: 193.06px;
+    align-items: center;
+}
+.CalculationDiv2{
+  
+    display: flex;
+   padding-left: 70px !important;
+    padding-right: 78px !important;
+    gap: 30px;
+    align-items: center;
+    padding-top: 42px;
+}
+.div2left{
+    background-color: #323232;
+    border-radius: 35px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 47px 100px 62px 91px;
+    /* width: 100%; */
+}
+.subdiv2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: max-content;
+}
+.subDivpara1{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.5px;
+    color: rgba(255, 255, 255, 1);
+}
+.subDivpara2{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 55.99px;
+    line-height: 62.71px;
+    color: rgba(255, 255, 255, 1);
+}
+.Calc{
+    margin-top: 42px !important;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.divleft{
+    display: flex;
+    border-radius: 35px;
+    background-color: rgba(50, 50, 50, 1);
+    padding: 50px 100px 62px 91px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+.subdiv2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: max-content;
+}
+.subDivpara1{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.5px;
+    color: rgba(255, 255, 255, 1);
+}
+.subDivpara2{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 55.99px;
+    line-height: 62.71px;
+    color: rgba(255, 255, 255, 1);
+}
+.WorkMethod{
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+   
+}
+.underWorkMethod{
+    padding: 98.4px 72.48px 98.14px 73.2px;
+    background-color: rgba(247, 248, 248, 1);
+    border-radius: 57.42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HowItWorks{
+    color: rgba(50, 50, 50, 1);
+    font-family: 'Poppins';
+    font-size: 39.42px;
+    line-height: 59.13px;
+    font-weight: 700;
+    padding-bottom: 7.4px;
+}
+.just4steps{
+    color: rgba(50, 50, 50, 1);
+    font-family: 'Poppins';
+    font-size: 12px;
+    line-height: 21.64px;
+    font-weight: 400;
+}
+.secondmain_div{
+    display: flex;
+flex-direction: column;
+padding: 0 78px 0 70px;}
+
+.div2Work{
+    display: flex;
+    padding-top: 35px;
+    gap: 18.66px;
+    height: max-content;
+}
+.MethodContainer{
+    display: flex;
+    width: 100%;
+    gap: 18.66px;
+}
+.Method1{
+    padding: 28.7px 30.3px 0px 28.7px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background:rgba(255, 255, 255, 1);
+    border-radius: 28.7px;
+height: 431px;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+.feature-card-number{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Poppins';
+    font-size: 51.68px;
+    font-weight: 700;
+    line-height: 54.5px;
+    color: rgba(5, 15, 39, 1);
+    padding-bottom: 71.33px;
+    transition: color 0.3s ease;
+}
+.feature-card-title{
+    font-family: 'Poppins';
+    font-size: 47.68px;
+    font-weight: 700;
+    line-height: 51.68px;
+    color: rgba(5, 15, 39, 1);
+    padding-bottom: 34.45px;
+    transition: color 0.3s ease;
+}
+.feature-card-description{
+    font-family: 'Poppins';
+    font-size: 16.23px;
+    font-weight: 400;
+    line-height: 24.34px;
+    color: rgba(5, 15, 39, 1); 
+    transition: color 0.3s ease;
+}
+.Method1:hover {
+    background-color: rgba(50, 50, 50, 1); /* Change background to black */
+}
+
+.Method1:hover .feature-card-number,
+.Method1:hover .feature-card-title,
+.Method1:hover .feature-card-description {
+    color: rgba(255, 255, 255, 1); /* Change text to white */
+}
+.featuredProperties{
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+     
+}
+.Featured{
+    color: rgba(50, 50, 50, 1);
+    font-family: 'Poppins';
+    font-size: 39.42px;
+    font-weight: 700;
+    line-height: 59.13px;
+    padding-bottom: 10px;
+    padding-left: 31px;
+}
+.secondDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 22px;
+    padding-left: 31px;
+    padding-right: 30px;
+}
+.explorehandpicked{
+    color: rgba(153, 153, 153, 1);
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  
+}
+.viewProp{
+    height: 49px;
+    background-color: rgba(50, 50, 50, 1);
+    border: none;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Urbanist';
+    padding: 14px 20px;
+}
+.featuredBoxesdiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card{
+
+    border: none;
+    width: 353px ;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-content{
+    font-family: 'Urbanist';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgba(50, 50, 50, 1);
+}
+.card-description{
+    font-family: 'Urbanist';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgba(153, 153, 153, 1);
+}
+.bed{
+    font-family: 'Urbanist';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgba(50, 50, 50, 1);
+}
+.card-features{
+    display: flex;
+    gap: 6px;
+    padding-bottom: 24px;
+}
+.bed{
+    display: flex;
+    padding: 6px 14px;
+    gap: 4px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.card-price{
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    color: rgba(153, 153, 153, 1);
+    font-family: 'Urbanist';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+.priceamount{
+    color: rgba(50, 50, 50, 1);
+    font-family: 'Urbanist';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+.ViewPropDetails{
+    background-color: rgba(50, 50, 50, 1);
+    padding: 14px 20px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Urbanist';
+    font-size:14px ;
+    font-weight: 500;
+line-height: 21px;
+color: rgba(255, 255, 255, 1);
+
+}
+.card-image{
+    width: 353.33px;
+}
+.DreamIdeal{
+    margin-top: 88px !important;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 0 32px 0 41px;
+}
+.dreamidealLeft{
+    height: 623px;
+    
+}
+.demo{
+    border-radius: 29px;
+    display: none;
+    height: 360px;
+    margin-top: 30px !important;
+    width: 100%;
+}
+.dreamIdealRight{
+    background: #323232;
+    border-radius: 53.29px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    padding: 149px 68px 118px 69px;
+}
+.topHeading{
+    text-align: left;
+    font-family: "Poppins";
+    line-height: 41.8px;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    color: rgba(255, 255, 255, 1);
+}
+.bottomheading{
+    font-family: 'Poppins';
+    font-size: 16.43px;
+    font-weight: 400;
+    line-height: 27.2px;
+    color: rgba(255, 255, 255, 1);
+}
+.IdealSeeMore{
+    background-color: rgba(19, 158, 213, 1);
+    border: none;
+    border-radius: 21.79px;
+    color: #fff;
+    font-family: Urbanist;
+    font-size: 15.08px;
+    font-weight: 700;
+    height: 62px;
+    line-height: 20.11px;
+    margin-top: 26px !important;
+    text-align: center;
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
+    text-underline-position: from-font;
+    width: 189.37px;
+}
+.MobileDiv{
+    background: #f7f8f8;
+    border-radius: 57.42px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 64px !important;
+}
+.mobile{
+    margin-left: -36px !important;
+    margin-top: -160px !important;
+}
+.MobileRight{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    padding: 0 126px 0 0;
+}
+.mobiledivp1{
+font-family: Poppins;
+font-weight: 400;
+font-size: 19.41px;
+line-height: 20.5px;
+color: rgba(50, 50, 50, 1);
+}
+.mobiledivp2{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 42.56px;
+    color: rgba(50, 50, 50, 1);
+    letter-spacing: -0.02em;
+    }
+    .mobiledivp3{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 13.85px;
+        line-height: 21.64px;
+        color: rgba(50, 50, 50, 1);
+        letter-spacing: -0.03em;
+        }
+        .mobileButton{
+            background: var(--Evox-Blue, #139ed5);
+    border: none;
+    border-radius: 22.21px;
+    color: #fbfafa;
+    color: var(--Evox-White, #fbfafa);
+    font-family: Poppins;
+    font-size: 15.38px;
+    font-weight: 700;
+    height: 63.21px;
+    line-height: 20.5px;
+    text-align: center;
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
+    text-underline-position: from-font;
+    width: 193.06px;
+        }
+        .ClientSay{
+            margin-top: 191px !important;
+        }
+        .clientSay1{
+            font-family: Poppins;
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 57px;
+            color: rgba(50, 50, 50, 1);
+            margin-bottom: 10px !important;
+        }
+        .clientSay2{
+            font-family: Poppins;
+            font-size: 16.43px;
+            font-weight: 400;
+            line-height: 24.65px;
+            color: rgba(153, 153, 153, 1);
+            margin-bottom: 60px !important;
+        }
+        .clientboxDivs{
+            /* align-items: center; */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+        }
+        .ClientBox{
+            align-items: center;
+            border: 1px solid #323232;
+            border-radius: 10px;
+            padding: 40px;
+            width: 334.67px;
+        }
+        .clientp1{
+            font-family: Urbanist;
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 600;
+            margin-bottom: 10px !important;
+        }
+        .clientp2{
+            font-family: Urbanist;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+            margin-bottom: 30px !important;
+        }
+        .profileClientdiv{
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+      .name{
+        font-family: Urbanist;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        color: rgba(50, 50, 50, 1);
+      }
+      .area{
+        font-family: Urbanist;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: rgba(153, 153, 153, 1);
+      }
+      .Aroow{
+        padding-top: 16px;
+        border-top: 1px solid rgba(251, 250, 250, 1);
+        margin-top: 40px !important;
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        gap: 10px;
+        margin-bottom: 81px !important;
+      }
+      .blackDiv{
+        background-color: rgba(50, 50, 50, 1);
+        display: flex;
+        flex-direction: column;
+      }
+      .secondLastDiv{
+       justify-content: center;
+        display: flex;
+        gap:150px;
+        margin-top: 217px !important;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        align-items: center;
+      }
+      .lastparadiv{
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        gap: 10px;
+      }
+      .whitebutton{
+        background: var(--white, #fff);
+    border: none;
+    border-radius: 4.44px;
+    color: #323232;
+    color: var(--Black, #323232);
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 500;
+    height: 49px;
+    line-height: 11.67px;
+    padding: 14px 22px;
+    text-align: center;
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
+    text-underline-position: from-font;
+    width: 226px;
+      }
+      .realEstateJournery{
+        font-family: Urbanist;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 57px;
+        color: rgba(255, 255, 255, 1);
+      }
+      .Propertypara{
+        color: rgba(153, 153, 153, 1);
+        font-family: Urbanist;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .FinalFooter{
+        display: flex;
+        margin-top: 353px !important;
+        padding: 80px 115px 80px 114px;
+        justify-content: space-between;
+        gap: 101px;
+      }
+      .email{
+        
+        align-items: center;
+        background: #139ed5;
+        background: var(--Evox-Blue, #139ed5);
+        border: 1px solid #262626;
+        border-radius: 8px;
+        display: flex;
+        gap: 6px;
+        height: 52px;
+        padding: 0 16px 0 21px;
+      }
+      .footerInput{
+        background-color: transparent;
+        border: none;
+      }
+      .footerInput::placeholder{
+        font-family: Urbanist;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: -0.06em;
+        color: rgba(255, 255, 255, 1);
+      }
+      .footerLinks{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+      }
+      .HomeLink1{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+      .headingfooter{
+        color: rgba(153, 153, 153, 1);
+        font-family: Urbanist;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.06em;
+        padding-bottom: 8px;
+      }
+      .subheading{
+        color: rgba(255, 255, 255, 1);
+        font-family: Urbanist;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.06em;
+      }
+@media (max-width: 1385px) {
+    .buildingImage {
+      width: 750px;
+      height: auto;
+    }
+  }
+  @media (max-width: 1320px) {
+    .buildingImage{
+      width: 700px;
+      height: auto;
+    }
+    .TopDiv {
+      padding-left: 70.4px;
+      padding-right: 45.7px;
+    }
+  }
+  @media (max-width: 1270px) {
+    .buildingImage {
+      width: 650px;
+      height: auto;
+    }
+    .TopDiv {
+        padding-left: 60.4px;
+        padding-right: 35.7px;
+      }
+      .TopDiv{
+        margin-top: 60px;
+        margin-left: 60px;
+        margin-right: 71.4px;
+      }
+    }
+
+    @media (max-width: 1215px) {
+ .buildingImage {
+          width: 620px;
+          height: auto;
+        }
+        .vision {
+            font-size: 33px;
+        
+            line-height: 40.16px;
+          }
+          .Exploringdiv {
+            gap: 17px;
+          }
+        .weCraft{
+            font-size: 33px;
+        line-height: 40.16px;  
+        }
+    .futureDeweling{
+        font-size: 33px;
+        line-height: 40.16px;
+    }}
+    @media (max-width: 1140px) {
+        .headingPlusFollow {
+          gap: 180px;
+        }
+        .buildingImage {
+          width: 520px;
+          height: auto;
+        }
+        .TopDiv{
+          margin-top: 50px;
+          margin-left: 50px;
+          margin-right: 60px;
+        }
+        .secondmain_div {
+            padding: 0 60px 0 55px;
+        }
+      }
+      @media (max-width: 1050px) {
+        .TopDiv {
+          margin-top: 40px;
+          margin-left: 40px;
+          margin-right: 40px;
+          background-color: #323232;
+          background-image: none;
+          margin: 0px !important;
+        }
+        .craftTheFuture {
+          margin-top: 40px;
+        }
+        .buildingImage {
+          width: 500px;
+          height: auto;
+
+          border-bottom-left-radius: 0px;
+        }
+        
+      }
+      @media (max-width: 750px) {
+        .headingPlusFollow{
+            gap: 15px;
+            justify-content: space-between;
+        }
+        .cardplusheading {
+           
+            justify-content: space-between;
+        }
+        .craftTheFuture{
+        gap: 15px;
+        justify-content: space-between;}
+        .TopDiv {
+            padding-left: 35px;
+            padding-right: 35px;
+            padding-top: 35px;
+          }}
+
+          @media (max-width: 660px) {
+            /* .FollowUs {
+              display: none;
+            } */
+            .follow-us-main-div2 {
+              display: flex;
+          
+              flex-direction: column;
+              gap: 8px;
+              margin-top: 10px;
+            }
+            .margin-to-last-card {
+              margin-top: 56px;
+            }
+            .three-icon-main-div {
+              margin-bottom: 0px;
+            }
+          }
+          @media (max-width: 645px) 
+          {
+            .headingPlusFollow{
+                flex-direction: column;
+                gap: 20px;
+            }
+            .maindiv1Para {
+                margin-top: 20px !important;
+            }
+             .cardplusheading{
+                flex-direction: column-reverse;
+                gap:30px
+            }
+          }
+          @media (max-width: 530px) {
+            .buildingImage {
+                height: auto;
+                width: 400px;
+            }
+            .breakline-class {
+                display: none;
+              }
+        }
+        @media (max-width: 420px) {
+            .buildingImage {
+                height: auto;
+                width: 200px;
+            }
+            }
+            @media(max-width:364px){
+                .TopDiv {
+                    padding-left: 15px;
+                  
+                }
+                .mainCard{
+                    padding: 10px 10px;
+                }
+            }
+            @media (max-width : 1250px){
+                .Calc {
+                    flex-direction: column;
+                }
+                .divleft{
+                    width: 90%;
+                }
+                .divLeft img{
+                    width: 100%;
+                }
+                
+               
+            }
+            @media (max-width:1096px){
+                .divleft{
+                    padding: 50px;
+                }
+            }
+             @media (max-width:893px){
+                .subDivpara1{
+                    font-size: 14px;
+                }
+
+                .subDivpara2{
+                    font-size: 40px;
+                    font-weight: 500;
+                }
+             }
+             @media (max-width:754px){
+                .divleft{
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+
+             }
+             @media (max-width:646px)
+{
+    .divleft{
+        width: 75%;
+    }
+}    
+@media (max-width:487px)
+{
+    .divleft{
+        width: 65%;
+    }
+}           
+            @media (max-width:1050px){
+                .div2Work{
+                    flex-direction: column;
+                }
+                .div2Work{
+                    gap: 30px;
+                    align-items: center;
+                }
+                .Method1{
+                    width: 75%;
+                }
+            }
+            @media (max-width:700px){
+                .secondmain_div {
+                    padding: 0 30px;
+                }
+            }
+            @media (max-width: 600px) {
+                .underWorkMethod {
+                    padding: 30px 15px;
+                }
+            }
+            @media (max-width:425px){
+                .WorkMethod{
+                    margin: 0 !important;
+                }
+            }
+            @media (max-width:400px){
+                .feature-card-number{
+                    padding-bottom: 50px;
+                }
+            }
+            @media (max-width:1184px){
+                .breaklineProperty-class{
+                    display: none;
+                }
+                .explorehandpicked{
+                    width: 80%;
+                }
+            }
+             /* @media (max-width:1061px ){
+                .card{
+                    width: 600px;
+                }
+             } */
+ 
+             @media (max-width:981px){
+                .secondDiv{
+                    gap: 30px;
+                    flex-direction: column;
+                }
+             }
+
+             @media(max-width:768px){
+                .card-image{
+                    width: 100%;
+                }
+             }
+             @media (max-width:445px){
+                .card{
+padding: 15px;
+                }
+                .card-features{
+                    gap: 0;
+                }
+                .bed{
+                    padding: 5px;
+                    font-size: 9px;
+                }
+             }
+             @media (max-width:377px){
+                .footer{
+                    flex-direction: column;
+                }
+             }
+             @media (max-width:1250px){
+                .dreamIdealRight {
+                    padding: 80px 50px 75px;
+                }
+             }
+             @media (max-width: 1060px){
+               .DreamIdeal{
+                flex-direction: column-reverse;
+                gap: 25px;
+               }
+               .dreamidealLeft{
+                height: auto;
+               }
+               .ideal{
+                display: none;
+               }
+               .demo{
+                display: initial;
+               }
+             }
+             @media (max-width:786px){
+                .topHeading{
+                    font-size: 28px;
+                }
+                .bottomheading{
+                    font-size: 14px;
+                }
+                .DreamIdeal{
+                    padding: 0;
+                }
+                .dreamIdealRight{
+                    padding: 30px;
+                }
+             }
+             @media (max-width: 1240px){
+                .mobile{
+                    height: 630px;
+                    margin-top: -80px !important;
+                }
+             }
+             @media (max-width: 1240px){
+                .mobile{
+                   
+                    margin-top: -100px !important;
+                }
+                .MobileDiv{
+                    flex-direction: column;
+                }
+                .MobileRight{
+                    padding: 20px 75px 50px
+                }
+             }
+             @media(max-width: 553px){
+.mobile{
+    height: 500px;
+    width: 95%;
+    margin-left: -10px !important;
+}
+.MobileRight{
+    padding: 20px 40px 40px;
+}
+.mobiledivp2{
+    font-size: 23px;
+    line-height: 30px;
+}
+.mobiledivp3{
+    font-size: 12px;
+}
+             }
+             @media(max-width:450px){
+                .mobile{
+                    height: 400px;
+                }
+             }
+
+             @media (max-width: 500px){
+                .clientSay1 {
+                    font-size: 30px;
+                }
+                .clientSay2{
+                    font-size: 14px;
+                }
+                .ClientBox{
+                    width: 100%;
+                }
+             }
+             @media (max-width:400px){
+                .clientSay1{
+                    font-size: 24px;
+                }
+             }
+             @media (max-width:1031px){
+                .secondLastDiv{
+                    flex-direction: column;
+                   align-items: flex-start;
+                    padding: 50px;
+                    gap: 50px;
+                }
+                .lastparadiv{
+                    width: 90%;
+                }
+             }
+
+             @media (max-width:1194px){
+                .email{
+                    width: 305px;
+                }
+                .FinalFooter{
+                flex-direction: column;
+                }
+             }
+             @media(max-width:849px){
+                .footerLinks{
+                    gap: 50px;
+                }
+             }
+             @media(max-width:571px){
+               .FinalFooter{
+                padding: 50px;
+               }
+             }
+             @media(max-width:410px){
+
+                .email{
+                    width: 90%;
+                }
+                .FinalFooter{
+                    padding: 30px;
+                }
+             }

@@ -1,0 +1,62 @@
+.MaindivNav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.EvoxLogo{
+    margin-top: 11px !important;
+}
+.navbarItems{
+    display: flex;
+    gap: 40px;
+}
+.ItemText {
+    font-family: "Poppins" !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 21px !important;
+    color: rgba(196, 196, 196, 1) !important; /* Initial color */
+    transition: color 0.3s ease, font-weight 0.3s ease; /* Smooth transition */
+    text-transform: capitalize !important;
+    align-items: flex-start !important;
+}
+
+.ItemText:hover {
+    font-weight: 700 !important; 
+    color: rgba(255, 255, 255, 1) !important; 
+}
+.NavButtons{
+    display: flex;
+    gap: 33px;
+    align-items: center !important;
+}
+.registerButton{
+    border-radius: 5.32px !important;
+    display: flex !important;
+background-color: rgba(19, 158, 213, 1) !important;
+color: rgba(255, 255, 255, 1) !important;
+font-family: 'Urbanist' !important;
+font-size: 14px !important;
+font-weight: 500 !important;
+line-height: 21px !important;
+height: 38px !important;
+border: none !important;
+width: 129px !important;
+justify-content: center !important;
+align-items: center !important;
+}
+.signinButton{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: transparent !important;
+    border: none !important;
+    font-family: Urbanist !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 21px !important;
+    text-align: left !important;
+    color:rgba(251, 250, 250, 1) !important;
+    white-space: nowrap !important;
+}
