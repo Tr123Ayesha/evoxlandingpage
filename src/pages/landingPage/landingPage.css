@@ -791,6 +791,14 @@ color: rgba(50, 50, 50, 1);
         line-height: 24px;
         letter-spacing: -0.06em;
       }
+      @media (min-width:1500px){
+        .headingPlusFollow{
+            gap: 300px;
+        }
+        .cardplusheading{
+            gap: 300px;
+        }
+      }
 @media (max-width: 1385px) {
     .buildingImage {
       width: 750px;
