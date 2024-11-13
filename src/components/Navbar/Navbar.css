@@ -16,8 +16,8 @@
     font-size: 14px !important;
     font-weight: 400 !important;
     line-height: 21px !important;
-    color: rgba(196, 196, 196, 1) !important; /* Initial color */
-    transition: color 0.3s ease, font-weight 0.3s ease; /* Smooth transition */
+    color: rgba(196, 196, 196, 1) !important; 
+    transition: color 0.3s ease, font-weight 0.3s ease; 
     text-transform: capitalize !important;
     align-items: flex-start !important;
 }

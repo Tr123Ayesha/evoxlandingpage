@@ -51,10 +51,18 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <Button
+                variant="contained" 
+                disableRipple 
+                disableElevation 
                   className="ItemText"
                   key={page}
                   onClick={handleCloseNavMenu}
-                  sx={{ color: "rgba(196, 196, 196, 1)", display: "block" }}
+                  sx={{
+                    color: "rgba(196, 196, 196, 1)",
+                    display: "block" ,
+                    backgroundColor: "rgba(50, 50, 50, 1)", 
+                    overlay: "none"
+                  }} 
                 >
                   {page}
                 </Button>
