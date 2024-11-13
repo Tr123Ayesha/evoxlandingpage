@@ -75,8 +75,6 @@ color: rgba(255, 255, 255, 1);
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     padding: 10px;
-    
-    /* transition: background-color 0.3s; */
     cursor: pointer;
 }
 .Insta:hover {
@@ -857,7 +855,8 @@ color: rgba(50, 50, 50, 1);
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.06em;
-        transition: font-weight 0.2s ease; /* Optional smooth transition */
+        cursor: pointer;
+        transition: font-weight 0.2s ease; 
     }
     
     .subheading:hover {
