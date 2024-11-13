@@ -850,14 +850,19 @@ color: rgba(50, 50, 50, 1);
         letter-spacing: -0.06em;
         padding-bottom: 8px;
       }
-      .subheading{
+      .subheading {
         color: rgba(255, 255, 255, 1);
         font-family: Urbanist;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.06em;
-      }
+        transition: font-weight 0.2s ease; /* Optional smooth transition */
+    }
+    
+    .subheading:hover {
+        font-weight: 800;
+    }
       @media(max-width:1437px){
         .clientboxDivs{
             justify-content: flex-start;
