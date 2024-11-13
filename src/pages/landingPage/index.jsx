@@ -81,11 +81,11 @@ const LandingPage = () =>{
                         <p className="bedroomtext">4-Bedroom</p>
                       </div>
                       <div className="bed">
-                      <img style={{    width:' 14.6px', height: '14.6px'}} src={bed} alt="bedroom" />
+                      <img style={{    width:' 14.6px', height: '14.6px'}} src={washroom} alt="bedroom" />
                         <p className="bedroomtext">3-Bathroom</p>
                       </div>
                       <div className="bed">
-                      <img style={{    width:' 14.6px', height: '14.6px'}} src={bed} alt="bedroom" />
+                      <img style={{    width:' 14.6px', height: '14.6px'}} src={villa} alt="bedroom" />
                         <p className="bedroomtext">Villa</p>
                       </div>
                     </div>

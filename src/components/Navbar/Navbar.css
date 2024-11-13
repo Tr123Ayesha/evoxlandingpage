@@ -45,8 +45,13 @@ border: none !important;
 width: 129px !important;
 justify-content: center !important;
 align-items: center !important;
+cursor: pointer;
+transition: background-color 0.3s ease;
 }
-.signinButton{
+.registerButton:hover {
+    background-color: #107ba3 !important;
+}
+.signinButton {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -54,9 +59,15 @@ align-items: center !important;
     border: none !important;
     font-family: Urbanist !important;
     font-size: 14px !important;
-    font-weight: 500 !important;
+    font-weight: 500 !important; /* Default font weight */
     line-height: 21px !important;
     text-align: left !important;
-    color:rgba(251, 250, 250, 1) !important;
+    color: rgba(251, 250, 250, 1) !important;
     white-space: nowrap !important;
+    transition: font-weight 0.3s ease; /* Smooth transition for font-weight */
 }
+
+.signinButton:hover {
+    font-weight: 800 !important; /* Increase font weight on hover */
+}
+

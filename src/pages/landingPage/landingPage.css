@@ -143,14 +143,15 @@ line-height: 21.91px;
     font-weight: 500;
     line-height: 15.33px;
 }
-.propertybutton{
+.propertybutton {
+    width: 100%;
     margin-top: 17.52px !important;
     font-family: Urbanist;
     font-size: 10.22px;
     font-weight: 500;
     line-height: 15.33px;
     text-align: left;
-    color:rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
     background-color: #139ed5;
     border-radius: 5.84px;
     border: none;
@@ -158,7 +159,15 @@ line-height: 21.91px;
     align-items: center;
     justify-content: center;
     padding: 10.22px 80px 10.22px 81px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+/* Hover effect */
+.propertybutton:hover {
+    background-color: #107ba3;
+}
+
 .Exploringdiv{
     display: flex;
     flex-direction: column;
@@ -194,6 +203,13 @@ line-height: 21.91px;
     color: #fbfafa;
     width: 193.06px;
     align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect */
+.startExploring:hover {
+    background-color: #107ba3;
 }
 .CalculationDiv2{
   
@@ -234,6 +250,7 @@ line-height: 21.91px;
     color: rgba(255, 255, 255, 1);
 }
 .Calc{
+    align-items: center;
     margin-top: 42px !important;
     display: flex;
     gap: 30px;
@@ -268,6 +285,11 @@ line-height: 21.91px;
     font-size: 55.99px;
     line-height: 62.71px;
     color: rgba(255, 255, 255, 1);
+}
+.divLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .WorkMethod{
     display: flex;
@@ -399,11 +421,17 @@ transition: background-color 0.3s ease, color 0.3s ease;
     color: rgba(255, 255, 255, 1);
     font-family: 'Urbanist';
     padding: 14px 20px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.viewProp:hover {
+    background-color: rgba(80, 80, 80, 1); /* Slightly lighter shade */
 }
 .featuredBoxesdiv{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-between;
 }
 .card{
 
@@ -477,7 +505,11 @@ transition: background-color 0.3s ease, color 0.3s ease;
     font-weight: 500;
 line-height: 21px;
 color: rgba(255, 255, 255, 1);
+transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
 
+.ViewPropDetails:hover {
+    background-color: rgba(80, 80, 80, 1); /* Slightly lighter shade */
 }
 .card-image{
     width: 353.33px;
@@ -540,6 +572,12 @@ color: rgba(255, 255, 255, 1);
     text-decoration-skip-ink: none;
     text-underline-position: from-font;
     width: 189.37px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect */
+.IdealSeeMore:hover {
+    background-color: #107ba3;
 }
 .MobileDiv{
     background: #f7f8f8;
@@ -599,7 +637,13 @@ color: rgba(50, 50, 50, 1);
     text-decoration-skip-ink: none;
     text-underline-position: from-font;
     width: 193.06px;
-        }
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect */
+.mobileButton:hover {
+    background-color: #107ba3;
+}
         .ClientSay{
             margin-top: 191px !important;
         }
@@ -620,7 +664,7 @@ color: rgba(50, 50, 50, 1);
             margin-bottom: 60px !important;
         }
         .clientboxDivs{
-            /* align-items: center; */
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -715,7 +759,12 @@ color: rgba(50, 50, 50, 1);
     text-decoration-skip-ink: none;
     text-underline-position: from-font;
     width: 226px;
-      }
+    transition: font-weight 0.3s ease; /* Smooth transition for font weight */
+}
+
+.whitebutton:hover {
+    font-weight: 700; /* Increase font weight on hover */
+}
       .realEstateJournery{
         font-family: Urbanist;
         font-weight: 600;
@@ -753,7 +802,18 @@ color: rgba(50, 50, 50, 1);
       .footerInput{
         background-color: transparent;
         border: none;
+        font-family: Urbanist;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: -0.06em;
+        color: rgba(255, 255, 255, 1);
+        
       }
+      .footerInput:focus {
+        outline: none; /* Ensures no border or outline appears on focus */
+        border: none;
+    }
       .footerInput::placeholder{
         font-family: Urbanist;
         font-weight: 500;
@@ -791,12 +851,36 @@ color: rgba(50, 50, 50, 1);
         line-height: 24px;
         letter-spacing: -0.06em;
       }
+      @media(max-width:1437px){
+        .clientboxDivs{
+            justify-content: flex-start;
+        }
+      }
+      @media(min-width:1726px){
+        .Exploringdiv{
+            padding-right: 50px;
+        }
+      }
+      /* @media(min-width:){
+
+      } */
       @media (min-width:1500px){
+        .Exploringdiv{
+            padding-right: 0px;
+        }
         .headingPlusFollow{
             gap: 300px;
         }
         .cardplusheading{
             gap: 300px;
+        }
+        .Exploringdiv{
+            padding-right: 50px;
+        }
+      }
+      @media(max-width:1387px){
+        .featuredBoxesdiv{
+            justify-content: flex-start;
         }
       }
 @media (max-width: 1385px) {
@@ -963,12 +1047,18 @@ color: rgba(50, 50, 50, 1);
                     padding: 10px 10px;
                 }
             }
+            @media (max-width:328px){
+                .propertybutton{
+                    padding: 10.2px 50px 10.2px 50px;
+                }
+            }
             @media (max-width : 1250px){
                 .Calc {
                     flex-direction: column;
+                    align-items: normal;
                 }
                 .divleft{
-                    width: 90%;
+                    width: 80%;
                 }
                 .divLeft img{
                     width: 100%;
@@ -978,6 +1068,7 @@ color: rgba(50, 50, 50, 1);
             }
             @media (max-width:1096px){
                 .divleft{
+                    width: 90%;
                     padding: 50px;
                 }
             }
@@ -993,6 +1084,7 @@ color: rgba(50, 50, 50, 1);
              }
              @media (max-width:754px){
                 .divleft{
+                    width: 80%;
                     flex-direction: column;
                     align-items: flex-start;
                 }
@@ -1007,7 +1099,7 @@ color: rgba(50, 50, 50, 1);
 @media (max-width:487px)
 {
     .divleft{
-        width: 65%;
+        width: 70%;
     }
 }           
             @media (max-width:1050px){
